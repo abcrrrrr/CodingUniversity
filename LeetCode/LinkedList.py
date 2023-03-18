@@ -15,7 +15,7 @@ class LinkedList:
                 node.next = Node(nodes[i])
                 node = node.next
 
-    def __repr__(self):
+    def __repr__(self): = 
         node = self.head
         nodes = []
         while node is not None:
